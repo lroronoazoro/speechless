@@ -6,17 +6,14 @@
 </head>
 <body>
 	<script>
-	
-
-function changetime(){
-// var time
-  var  time="内部"
+//数组
+function queue(arr, item) {
+  // Your code here
+  arr.push(item);
+  var item=arr.shift();
+  return item;  // Change this line
 }
-changetime()
-
-document.write(time)
-
-
-	</script>
+console.log(queue([2],1))
+</script>
 </body>
 </html>
