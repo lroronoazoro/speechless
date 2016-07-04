@@ -1,0 +1,102 @@
+services:
+    house.news:
+        class: HouseBundle\Services\DB\News
+        arguments:
+            - '@service_container'
+    house.cate_pushs:
+        class: HouseBundle\Services\DB\CatePushs
+        arguments:
+            - '@service_container'
+    house.pushs:
+        class: HouseBundle\Services\DB\Pushs
+        arguments:
+            - '@service_container'
+    house.pushs_attr:
+        class: HouseBundle\Services\DB\PushsAttr
+        arguments:
+            - '@service_container'
+    house.category:
+        class: HouseBundle\Services\DB\Category
+        arguments:
+            - '@service_container'
+    house.service:
+        class: HouseBundle\Services\DB\Service
+        arguments:
+            - '@service_container'
+    house.comment:
+        class: HouseBundle\Services\DB\Comment
+        arguments:
+            - '@service_container'
+    house.newstest:
+        class: HouseBundle\Services\DB\Newstest
+        arguments:
+            - '@service_container'
+    house.photos:
+        class: HouseBundle\Services\DB\Photos
+        arguments:
+            - '@service_container'
+    house.video:
+        class: HouseBundle\Services\DB\Video
+        arguments:
+            - '@service_container'
+<<<<<<< HEAD
+    house.houses:
+        class: HouseBundle\Services\DB\Houses
+        arguments:
+            - '@service_container'
+    house.cate_area:
+        class: HouseBundle\Services\DB\CateArea
+        arguments:
+            - '@service_container'
+    house.cate_circle:
+        class: HouseBundle\Services\DB\CateCircle
+        arguments:
+            - '@service_container'
+    house.cate_metro:
+        class: HouseBundle\Services\DB\CateMetro
+        arguments:
+            - '@service_container'
+    house.cate_line:
+        class: HouseBundle\Services\DB\CateLine
+        arguments:
+            - '@service_container'
+    house.cate_type:
+        class: HouseBundle\Services\DB\CateType
+        arguments:
+            - '@service_container'
+    house.cate_status:
+        class: HouseBundle\Services\DB\CateStatus
+        arguments:
+            - '@service_container'
+    house.houses_attr:
+        class: HouseBundle\Services\DB\HousesAttr
+        arguments:
+            - '@service_container'
+    house.groupbuy:
+        class: HouseBundle\Services\DB\Groupbuy
+        arguments:
+            - '@service_container'
+    house.layout:
+        class: HouseBundle\Services\DB\Layout
+        arguments:
+            - '@service_container'
+    house.intent:
+        class: HouseBundle\Services\DB\Intent
+        arguments:
+            - '@service_container'
+    house.special:
+        class: HouseBundle\Services\DB\Special
+        arguments:
+            - '@service_container'
+    house.impress:
+        class: HouseBundle\Services\DB\Impress
+=======
+    house.house_attr:
+        class: HouseBundle\Services\DB\HouseAttr
+>>>>>>> 05cabe4f00ce21b73304084f63b196aa43d311de
+        arguments:
+            - '@service_container'
+    house.houses:
+        class: HouseBundle\Services\DB\Houses
+        arguments:
+            - '@service_container'
