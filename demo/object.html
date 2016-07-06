@@ -5,6 +5,49 @@
   <title>object</title>
 </head>
 <body>
+  <script>
+/*
+使用hasOwnProperty判断对象属性是否存在
+obj.hasOwnProperty(name)
+ */
+var myObj = {
+  gift: "pony",
+  pet: "kitten",
+  bed: "sleigh"
+};
+function checkObj(checkProp) {
+  // Your Code Here
+  if(myObj.hasOwnProperty(checkProp)){  
+  	return myObj[checkProp];//如果你需要通过变量来访问对象的属性值，请用中括号操作符，点操作符不支持变量。
+  }else{
+  	return "Not Found";
+  }
   
+}
+
+// Test your code by modifying these values
+//checkObj("gift");
+var myMusic = [
+  {
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release_year": 1973,
+    "formats": [ 
+      "CS", 
+      "8T", 
+      "LP" ],
+    "gold": true
+  },{
+  	"name":"lab"
+  }
+  // Add record here
+];
+
+console.log(myMusic[1])
+
+
+
+
+  </script>
 </body>
 </html>

@@ -9,19 +9,23 @@
 
 以上计划取消,发现一个[fcc](#https://freecodecamp.freecodecamp)的网站, 决定跟着这个课程走了
 
+基本每天做十题左右, 重在坚持
 
+除周六日不可抗拒的原因, 暂时还未中断过
 
-#### html阶段
-
-----
+## html阶段
 
 直接跳过了
 
-#### javascript阶段
+##  javascript阶段
 
-----
+- 变量
+- 比较运算符
+- if .. else ...  
+- 数组
+- object
 
-正在学些, 已经学到了数组阶段
+
 
 
 
